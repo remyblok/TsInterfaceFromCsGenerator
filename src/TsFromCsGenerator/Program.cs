@@ -33,6 +33,7 @@ namespace TsFromCsGenerator
 			builder.RegisterType<CsToTsTypeConverter>().AsImplementedInterfaces();
 
 			builder.RegisterType<GenerateInterfacesCommand>().As<ConsoleCommand>();
+			builder.RegisterType<GenerateClassesCommand>().As<ConsoleCommand>();
 
 			return builder.Build();
 		}

@@ -176,6 +176,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenerateClassesCommand.cs" />
     <Compile Include="Services\CsParser.cs" />
     <Compile Include="Services\CsToTsConverter.cs" />
     <Compile Include="GenerateInterfacesCommand.cs" />
